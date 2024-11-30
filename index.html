@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <!-- Nav start -->
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Vera</a>
+        <!-- Div Nav menu start -->
+        <div class="nav__menu" id="nav-menu">
+          <!-- Ul nav list start -->
+          <ul class="nav__list">
+            <!-- li nav item start -->
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home nav__icon"></i>
+                Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i>
+                Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i>
+                Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i>
+                Certificates
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#goals" class="nav__link">
+                <i class="bx bxs-objects-horizontal-left"></i>
+                Goals
+              </a>
+            </li>
+            <!-- li end nav item -->
+          </ul>
+          <!-- Ul Nav item end -->
+        </div>
+        <!-- Div Nav menu end -->
+
+        <!-- Div nav toggle start -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+        <!-- Div nav toggle end -->
+
+        <!-- Nav menu end -->
+      </nav>
+      <!-- Nav end -->
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="assets/img/Aldo.jpeg" alt="" class="home__img" />
+
+                <h1 class="home__title">Aldo <b>Vera Z.</b></h1>
+                <h3 class="home__profession">Web developer</h3>
+
+                <span class="home__main-rofession">Computer Engineering</span>
+
+                <!-- Button to generate and download the pdf. Available for desktop. -->
+                <div>
+                  <a
+                    download=""
+                    href="https://drive.google.com/file/d/1emamOhKivPxd7E9ENFVmcHpHlKNHpUeW/view?usp=sharing"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i>Alfredo Hardessen -
+                  Valdivia, Chile
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  aestebanveraz@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> +56950343398
+                </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+            <i
+              class="bx bx-download generate-pdf"
+              title="Generate PDF"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a
+                href="https://www.linkedin.com/in/aldoveraz/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-linkedin-square social__icon"></i>
+                @aldoveraz
+              </a>
+              <a
+                href="https://github.com/AldoVeraZ"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social__icon"></i>
+                @aldoveraz
+              </a>
+              <a
+                href="https://www.instagram.com/aldoestebanveraz"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social__icon"></i>
+                @aldoveraz
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">
+              I consider myself responsible and timely, with a high level of
+              ethics. I am respectful and assertive. I am motivated to give my
+              best to your organizational project.
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"> </span>
+                  <span class="education__line"> </span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">FULL STACK</h3>
+                  <span class="education__studies"> Educación IT </span>
+                  <span class="education__year"> 2023 - 2024 </span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"> </span>
+                  <span class="education__line"> </span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">COMPUTER ENGINEERING</h3>
+                  <span class="education__studies">
+                    Technological University of Chile INACAP
+                  </span>
+                  <span class="education__year"> 2016 - 2019 </span>
+                </div>
+              </div>
+
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"> </span>
+                  <!--   <span class="education__line"> </span> -->
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">
+                    MERCHANT MARINER (Other estudies)
+                  </h3>
+                  <span class="education__studies"> Encicomp OTEG </span>
+                  <span class="education__year"> 2010 </span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Html
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Css
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Sass
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> JavaScript
+                </li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Css
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> React
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Node
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span> Mongo
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+        <!--  resume__left end-->
+
+        <div class="resume__right">
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="goals">
+            <h2 class="section-title">Professional Goals</h2>
+
+            <p class="goals__description">
+              I am looking for an opportunity to enter the tech sector, ideally
+              in web development. However, I am also motivated to start in any
+              field related to IT (back-end, front-end, full-stack trainee,
+              technical support, and/or similar roles).
+              <br /><br />
+              I am fully available to gain experience in the area I have studied
+              and in which I continue to train myself.
+            </p>
+          </section>
+
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <!-- Exp #1 -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">FULL STACK ENGINEER</h3>
+
+                  <span class="experience__company"
+                    >From 2023 to Present | Educacion IT | Web Developer</span
+                  >
+                  <p class="experience__description">
+                    I completed several projects, starting with HTML, CSS, and
+                    JavaScript, and progressing to React for the frontend and
+                    Node.js with MongoDB and Express for the backend. My final
+                    project was a functional e-commerce platform with a shopping
+                    cart, built in 3 phases.
+                  </p>
+                </div>
+              </div>
+              <!-- Exp #2 -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    Internship in Computer Engineering
+                  </h3>
+
+                  <span class="experience__company"
+                    >From 2020 To 2020 | Web Developer and Technical
+                    support</span
+                  >
+                  <p class="experience__description">
+                    I developed a web application for managing entry and exit
+                    equipment, starting with requirement gathering, database
+                    design, and project implementation. Additionally, I
+                    performed PC maintenance, including formatting and image
+                    backups. In the second phase of my internship, I completed
+                    the web application using real data. Technologies used: PHP,
+                    Bootstrap, and AdminLTE template.
+                  </p>
+                </div>
+              </div>
+              <!-- Exp #3 -->
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <!--                   <span class="experience__line"></span> -->
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">
+                    THESIS PROJECT | Pet Web Application
+                  </h3>
+
+                  <span class="experience__company"
+                    >From 2016 to 2019 | INACAP UNIVERSITY</span
+                  >
+                  <p class="experience__description">
+                    I developed a web application that allows users to leave
+                    condolences for various pets, using Vanilla JavaScript and
+                    PHP. I implemented the MVC pattern and utilized a MySQL
+                    database for data storage.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- experience__container bd-grid -->
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Certified in Project Managment (2024)
+                </h3>
+                <p class="certificate__description">
+                  An 18-hour course provided by Educación IT
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Certified in Leadership for Agile Teams (2024)
+                </h3>
+                <p class="certificate__description">
+                  A 12-hour course provided by Educación IT
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Certified in Scrum Fundamentals (2024)
+                </h3>
+                <p class="certificate__description">
+                  A 12-hour course provided by Educación IT
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Certified in a Full Stack Engineer Bootcamp (2023 - 2024)
+                </h3>
+                <p class="certificate__description">
+                  A total of 201 chronological hours provided by Educación IT
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">Computer Engineer (2020)</h3>
+                <p class="certificate__description">
+                  Professional Title in Computer Engineering provided by
+                  Technological University of Chile INACAP, during 2016 to 2019.
+                </p>
+              </div>
+
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Bachelor's Degree in Computer Science (2019)
+                </h3>
+                <p class="certificate__description">
+                  Academic degree provided by Technological University of Chile
+                  INACAP, during 2016 to 2019.
+                </p>
+              </div>
+            </div>
+            <!-- certificate__container bd-grid  -->
+          </section>
+
+          <!--========== LANGUAGES ==========-->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name">
+                  <span class="languages__circle"></span> Spanish
+                </li>
+
+                <li class="languages__name">
+                  <span class="languages__circle"></span> English
+                </li>
+              </ul>
+            </div>
+            <!-- languages__container -->
+          </section>
+          <!-- languages section -->
+
+          <!--========== INTERESTS ==========-->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bxs-plane-alt interests__icon"></i>
+                <span class="interests__name">Travel</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book interests__icon"></i>
+                <span class="interests__name">Read</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-dumbbell interests__icon"></i>
+                <span class="interests__name">Fitness</span>
+              </div>
+              <!-- interests__content -->
+            </div>
+            <!-- interests__container bd-gri -->
+          </section>
+          <!-- interests section -->
+        </div>
+        <!-- resume__right -->
+      </div>
+      <!-- Resume Final -->
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
